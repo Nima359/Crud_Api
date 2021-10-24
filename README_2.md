@@ -7,7 +7,7 @@ php artisan vendor:publish --provider=Nima\Crud_Api\CrudApiServiceProvider --tag
 
 php artisan migrate
 
-php artisan db:seed --class=Nima\Crud\Database\Seeders\PostSeed
+php artisan db:seed --class=Nima\Crud_Api\Database\Seeders\PostSeed
 دستور بالا چند سطر اطلاعات fake به دیتابیس اضافه میکند
 
 پس از نصب لاراول بصورت خودکار فایل ها و کلاس ها را در محل مناسب قرار میهد
