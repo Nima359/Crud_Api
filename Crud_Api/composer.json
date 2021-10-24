@@ -1,0 +1,34 @@
+{
+  "name" : "nima/crud_api" ,
+  "description" : "New Package CRUD API" ,
+  "license" : "MIT" ,
+  "keywords" : [
+    "Laravel" ,
+    "Crud_Api" ,
+    "Nima"
+  ] ,
+  "autoload" : {
+    "psr-4" : {
+      "Nima\\Crud\\" : "src/"
+    }
+  } ,
+  "authors" : [
+    {
+      "name" : "Nima R" ,
+      "email" : "nima@gmail.com"
+    }
+  ] ,
+  "minimum-stability" : "dev" ,
+  "require" : {
+    "php" : ">=7.3.1" ,
+    "illuminate/database" : "^5.0" ,
+    "illuminate/support" : "~5.0"
+  } ,
+  "extra" : {
+    "laravel" : {
+      "providers" : [
+        "Nima\\Crud_Api\\CrudApiServiceProvider"
+      ]
+    }
+  }
+}
