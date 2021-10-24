@@ -18,7 +18,7 @@ class CreatePosts2Table extends Migration {
       $table->collation = "utf8_persian_ci";
       
       $table->id ();
-      $table->integer ("post_id");//->unsigned ()->unique ();
+      $table->bigInteger ("post_id");//->unsigned ()->unique ();
       $table->string ("title" , 255);
       $table->longText ("content");
       $table->bigInteger ("user_id")->unsigned () ;
