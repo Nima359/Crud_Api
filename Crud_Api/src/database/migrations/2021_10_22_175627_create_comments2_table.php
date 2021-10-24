@@ -17,7 +17,7 @@ class CreateComments2Table extends Migration {
       $table->charset = "utf8";
       $table->collation = "utf8_persian_ci";
       
-      $table->increments ('id');
+      $table->id ('id');
       $table->string ('title')->nullable ();
       $table->longText ('comment');
       $table->string ('user_email');//->unique ();
