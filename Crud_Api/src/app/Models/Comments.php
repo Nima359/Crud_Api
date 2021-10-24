@@ -16,7 +16,7 @@ class Comments extends Model {
   use HasFactory;
 
 
-//    protected $table = "comments";
+    protected $table = "comments2";
 //    protected $timestamp = true;
   
   protected $fillable = [
